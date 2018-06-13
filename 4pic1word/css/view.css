@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Passion+One);
+
+html,
+body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   font-family: Trebuchet MS;
+}
+/*
+html, body {
+  width: 100px;
+} */
+
+.header {
+    padding: 20px;
+    font-size: 36px;
+    font-family: 'Passion One';
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    display: block;
+    min-height:100%;
+    position:relative;
+}
+
+.main {
+    text-align: center;
+    padding-bottom: 37px;
+}
+
+.footer {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 37px;
+    background: #E8E9EA;
+}
+
+#footer-text {
+    padding-right: 7px;
+    line-height: 37px;
+}
+
+#first-column, #second-column {
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    margin: 5px;
+}
+
+#pictures {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.picture {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+#info {
+    display: none;
+    text-align: left;
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: #363636;
+    background-color: #FFF1A5;
+    border: 1px solid #FED22F;
+    border-radius: 4px;
+}
+
+#info-icon {
+    display: none;
+    float: left;
+    margin-right: 5px;
+    height: 16px;
+    width: 16px;
+    background-repeat: no-repeat;
+    background-position: -16px -144px;
+    background-image: url("blue_icons.png");
+}
+
+#answer {
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#letters {
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.my-button {
+    height: 37px;
+    width: 48px;
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#777777;
+    font-family:Trebuchet MS;
+    font-size:15px;
+    font-weight:bold;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #ffffff;
+    padding: 2px;
+    margin: 2px;
+    vertical-align: middle;
+    line-height: 37px;
+}
+
+.letter-button:hover {
+    background-color:#FED22F;
+}
+
+.letter-button {
+    background-color: #FFF1A5;
+}
+
+.answer-button {
+    background-color: #A0C3FF;
+}
+
+.empty-button {
+    background-color: #E8E9EA;
+}
