@@ -29,6 +29,12 @@ function clearAll() {
   $("#picture-4").empty();
 }
 
+function playAudio() {
+  var audio=new Audio('music/win.mp3');
+  setTimeout(audio.play(),1);
+}
+
+
 // restart game
 function restartgame() {
   alert("You completed all level, do you want to restart game?");
@@ -92,6 +98,7 @@ function loadAvailableLetters(word) {
           var ans = answer.join("");
           console.log(ans)
           if(answer.join("") == word) {
+            playAudio();
             showInfo("You win!");
             $('#next-link').show();
           }
